@@ -1,0 +1,137 @@
+task_name: GNEtolC
+training:
+  epochs: 120
+  early_stopping_patience: 20
+  num_runs: 3
+  loss_type: asl
+  asl_gamma_pos: 0.0
+  asl_gamma_neg: 2.0
+  asl_clip: 0.05
+  lr: 0.0001
+  weight_decay:
+    default: 0.0001
+    fingerprint: 0.001
+    gates: 0.001
+  lambda_graph_aux: 0.1
+  lambda_fp_aux: 0.05
+  lambda_fingerprint_expert_aux: 0.005
+  lambda_desc_aux: 0.1
+  lambda_joint_aux: 0.1
+  grad_clip_norm: 1.0
+  scheduler: reduce_on_plateau
+  scheduler_factor: 0.5
+  scheduler_patience: 5
+  scheduler_min_lr: 1.0e-06
+  model_seed: 42
+  device_ids:
+  - 0
+  min_free_gb_per_gpu: 6.0
+  save_dir: null
+  early_stopping_start_epoch: 10
+  global_gate_trainable: true
+  gate_warmup_epochs: 8
+  lambda_global_gate_reg: 0.02
+  lambda_fingerprint_gate_reg: 0.0
+  learning_rates:
+    graph: 0.0001
+    descriptor: 0.0001
+    joint: 0.0001
+    prediction_heads: 0.0001
+    fingerprint_encoders: 5.0e-05
+    fingerprint_gate: 2.0e-05
+    global_gate: 1.0e-05
+  fingerprint_expert_aux_reduction: sum
+dataset:
+  task: classification
+  batch_size: 512
+  num_workers: 8
+  preprocess_num_processes: 64
+  preprocess_chunksize: 64
+  preprocess_maxtasksperchild: null
+  valid_size: 0.1
+  test_size: 0.1
+  seed: 42
+  descriptor_scaling: robust_train
+  descriptor_clip: 10.0
+  fingerprints:
+  - name: cmf_r2
+    type: count_morgan
+    radius: 2
+    num_bits: 2048
+    max_count: 8
+    log1p: true
+  - name: cmf_r3
+    type: count_morgan
+    radius: 3
+    num_bits: 2048
+    max_count: 8
+    log1p: true
+  - name: rdk
+    type: rdkit
+    num_bits: 2048
+  - name: atom_pair
+    type: atom_pair
+    num_bits: 2048
+  - name: maccs
+    type: maccs
+    num_bits: 167
+  data_path: data/12/GNEtolC.csv
+  smiles_col: SMILES
+  target: Activity_tolC
+  primary_task: Activity_tolC
+  splitting: stratified
+model:
+  hidden_dim: 256
+  proj_dim: 128
+  prop_dim: 46
+  fingerprint_dim: 8359
+  fingerprint_specs:
+  - name: cmf_r2
+    type: count_morgan
+    dim: 2048
+  - name: cmf_r3
+    type: count_morgan
+    dim: 2048
+  - name: rdk
+    type: rdkit
+    dim: 2048
+  - name: atom_pair
+    type: atom_pair
+    dim: 2048
+  - name: maccs
+    type: maccs
+    dim: 167
+  fingerprint_hidden_dim: 128
+  gnn_layers: 3
+  desc_group_dims:
+  - 10
+  - 14
+  - 7
+  - 8
+  - 2
+  - 5
+  fingerprint_gate_temperature: 1.0
+  fingerprint_gate_init:
+    cmf_r2: 0.35
+    cmf_r3: 0.2
+    rdk: 0.15
+    atom_pair: 0.15
+    maccs: 0.15
+  dropout: 0.2
+  fusion_dropout: 0.2
+  adaptive_gate_temperature: 1.5
+  adaptive_gate_dropout: 0.2
+  modality_dropout: 0.1
+  graph_modality_dropout: 0.1
+  fp_modality_dropout: 0.15
+  desc_modality_dropout: 0.1
+  joint_modality_dropout: 0.05
+  cmf_input_dropout: 0.1
+  gate_entropy_weight: 1.0
+  gate_prior_kl_weight: 0.1
+  gate_balance_weight: 0.1
+  global_gate_prior:
+    graph: 0.3
+    fingerprint: 0.3
+    descriptor: 0.15
+    joint: 0.25
