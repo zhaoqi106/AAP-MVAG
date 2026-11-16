@@ -1,0 +1,1290 @@
+[
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 42,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2336
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 291
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 43,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2337
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 290
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 44,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2337
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 290
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 45,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2336
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 291
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 46,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2336
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 291
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 47,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2336
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 291
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_random",
+    "seed": 48,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2336
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 291
+    },
+    "test": {
+      "n": 11551,
+      "positive": 291
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 42,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 292
+    },
+    "test": {
+      "n": 11551,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 43,
+    "rows": 115519,
+    "train": {
+      "n": 92415,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 292
+    },
+    "test": {
+      "n": 11553,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 44,
+    "rows": 115519,
+    "train": {
+      "n": 92360,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11608,
+      "positive": 292
+    },
+    "test": {
+      "n": 11551,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 45,
+    "rows": 115519,
+    "train": {
+      "n": 92416,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 292
+    },
+    "test": {
+      "n": 11552,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 46,
+    "rows": 115519,
+    "train": {
+      "n": 92417,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 292
+    },
+    "test": {
+      "n": 11551,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 47,
+    "rows": 115519,
+    "train": {
+      "n": 92416,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 292
+    },
+    "test": {
+      "n": 11552,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "GNEtolC_balanced_scaffold",
+    "seed": 48,
+    "rows": 115519,
+    "train": {
+      "n": 92415,
+      "positive": 2334
+    },
+    "valid": {
+      "n": 11551,
+      "positive": 292
+    },
+    "test": {
+      "n": 11553,
+      "positive": 292
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 42,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1188
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 43,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1189
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 148
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 44,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1189
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 148
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 45,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1189
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 148
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 46,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1189
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 148
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 47,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1189
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 148
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_random",
+    "seed": 48,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 1189
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 148
+    },
+    "test": {
+      "n": 3912,
+      "positive": 148
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 42,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 43,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 44,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 45,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 46,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 47,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HSkMC_balanced_scaffold",
+    "seed": 48,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 1187
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 149
+    },
+    "test": {
+      "n": 3912,
+      "positive": 149
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 42,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2662
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 332
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 43,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2663
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 332
+    },
+    "test": {
+      "n": 3912,
+      "positive": 332
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 44,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2662
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 332
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 45,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2663
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 332
+    },
+    "test": {
+      "n": 3912,
+      "positive": 332
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 46,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2663
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 332
+    },
+    "test": {
+      "n": 3912,
+      "positive": 332
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 47,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2663
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 332
+    },
+    "test": {
+      "n": 3912,
+      "positive": 332
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_random",
+    "seed": 48,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2662
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 332
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 42,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 43,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 44,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 45,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 46,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 47,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "HepG2_balanced_scaffold",
+    "seed": 48,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2661
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 333
+    },
+    "test": {
+      "n": 3912,
+      "positive": 333
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 42,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2745
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 43,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2746
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 342
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 44,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2746
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3912,
+      "positive": 342
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 45,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2745
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 46,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2745
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 47,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2746
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 342
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_random",
+    "seed": 48,
+    "rows": 39124,
+    "train": {
+      "n": 31300,
+      "positive": 2746
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3912,
+      "positive": 342
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 42,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 344
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 43,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3913,
+      "positive": 344
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 44,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 344
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 45,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3913,
+      "positive": 344
+    },
+    "test": {
+      "n": 3912,
+      "positive": 343
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 46,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3913,
+      "positive": 344
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 47,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3913,
+      "positive": 344
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  },
+  {
+    "experiment": "IMR90_balanced_scaffold",
+    "seed": 48,
+    "rows": 39124,
+    "train": {
+      "n": 31299,
+      "positive": 2744
+    },
+    "valid": {
+      "n": 3912,
+      "positive": 343
+    },
+    "test": {
+      "n": 3913,
+      "positive": 344
+    },
+    "raw_smiles_overlap": {
+      "train_valid": 0,
+      "train_test": 0,
+      "valid_test": 0
+    },
+    "all_three_saved_predictions_match_indices_labels_smiles": true
+  }
+]
