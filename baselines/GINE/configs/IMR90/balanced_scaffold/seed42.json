@@ -1,0 +1,29 @@
+{
+  "provenance": "args extracted from historical best_model.pt; only paths rewritten",
+  "args": {
+    "data_csv": "data/datasets - IMR-90 viability.csv",
+    "smiles_col": "smiles",
+    "label_col": "label",
+    "task_name": "IMR90",
+    "split": "balanced_scaffold",
+    "seed": 42,
+    "external_split": "splits/IMR90/balanced_scaffold/seed42/split_indices.pt",
+    "out_dir": "results/IMR90/balanced_scaffold/seed42",
+    "epochs": 120,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 1e-05,
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "dropout": 0.2,
+    "pool": "mean",
+    "patience": 25,
+    "grad_clip": 5.0,
+    "num_workers": 2,
+    "threshold": 0.5,
+    "device": "cuda"
+  },
+  "atom_dim": 13,
+  "edge_dim": 7,
+  "source_checkpoint_sha256": "00be3208b760e2e8a31c66e8c8541cd0ecd7f1f1b945df5460af80f21a382634"
+}

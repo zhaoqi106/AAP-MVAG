@@ -1,0 +1,41 @@
+{
+  "epochs": [
+    120
+  ],
+  "batch_size": [
+    128
+  ],
+  "lr": [
+    0.0003
+  ],
+  "weight_decay": [
+    1e-05
+  ],
+  "hidden_dim": [
+    256
+  ],
+  "num_layers": [
+    4
+  ],
+  "dropout": [
+    0.2
+  ],
+  "pool": [
+    "mean"
+  ],
+  "patience": [
+    25
+  ],
+  "grad_clip": [
+    5.0
+  ],
+  "num_workers": [
+    2
+  ],
+  "threshold": [
+    0.5
+  ],
+  "device": [
+    "cuda"
+  ]
+}

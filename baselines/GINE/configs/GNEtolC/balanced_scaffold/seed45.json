@@ -1,0 +1,29 @@
+{
+  "provenance": "args extracted from historical best_model.pt; only paths rewritten",
+  "args": {
+    "data_csv": "data/GNEtolC.csv",
+    "smiles_col": "SMILES",
+    "label_col": "Activity_tolC",
+    "task_name": "GNEtolC",
+    "split": "balanced_scaffold",
+    "seed": 45,
+    "external_split": "splits/GNEtolC/balanced_scaffold/seed45/split_indices.pt",
+    "out_dir": "results/GNEtolC/balanced_scaffold/seed45",
+    "epochs": 120,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 1e-05,
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "dropout": 0.2,
+    "pool": "mean",
+    "patience": 25,
+    "grad_clip": 5.0,
+    "num_workers": 2,
+    "threshold": 0.5,
+    "device": "cuda"
+  },
+  "atom_dim": 13,
+  "edge_dim": 7,
+  "source_checkpoint_sha256": "fee8bddfbe5759eda7e7dc9c939764bbfcd899622ac81ff966bf453106ea5184"
+}

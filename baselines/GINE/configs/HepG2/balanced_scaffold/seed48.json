@@ -1,0 +1,29 @@
+{
+  "provenance": "args extracted from historical best_model.pt; only paths rewritten",
+  "args": {
+    "data_csv": "data/datasets - HepG2 cytotoxicity.csv",
+    "smiles_col": "smiles",
+    "label_col": "label",
+    "task_name": "HepG2",
+    "split": "balanced_scaffold",
+    "seed": 48,
+    "external_split": "splits/HepG2/balanced_scaffold/seed48/split_indices.pt",
+    "out_dir": "results/HepG2/balanced_scaffold/seed48",
+    "epochs": 120,
+    "batch_size": 128,
+    "lr": 0.0003,
+    "weight_decay": 1e-05,
+    "hidden_dim": 256,
+    "num_layers": 4,
+    "dropout": 0.2,
+    "pool": "mean",
+    "patience": 25,
+    "grad_clip": 5.0,
+    "num_workers": 2,
+    "threshold": 0.5,
+    "device": "cuda"
+  },
+  "atom_dim": 13,
+  "edge_dim": 7,
+  "source_checkpoint_sha256": "a18f3af7abd7fc48c38082baae35e1ee5187c1a31d0ab67861bf3e9341034664"
+}
