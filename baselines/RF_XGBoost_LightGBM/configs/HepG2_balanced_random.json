@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "name": "HepG2",
+      "path": "data/datasets - HepG2 cytotoxicity.csv",
+      "smiles_col": "smiles",
+      "target": "label"
+    }
+  ],
+  "fixed_splits": {
+    "42": "splits/HepG2_balanced_random/seed42.pt",
+    "43": "splits/HepG2_balanced_random/seed43.pt",
+    "44": "splits/HepG2_balanced_random/seed44.pt",
+    "45": "splits/HepG2_balanced_random/seed45.pt",
+    "46": "splits/HepG2_balanced_random/seed46.pt",
+    "47": "splits/HepG2_balanced_random/seed47.pt",
+    "48": "splits/HepG2_balanced_random/seed48.pt"
+  },
+  "radius": 2,
+  "n_bits": 2048,
+  "useChirality": true,
+  "valid_size": 0.1,
+  "test_size": 0.1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "device": "cpu",
+  "n_jobs": 8
+}

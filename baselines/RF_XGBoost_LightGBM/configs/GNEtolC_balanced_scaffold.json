@@ -1,0 +1,35 @@
+{
+  "tasks": [
+    {
+      "name": "GNEtolC",
+      "path": "data/GNEtolC.csv",
+      "smiles_col": "SMILES",
+      "target": "Activity_tolC"
+    }
+  ],
+  "fixed_splits": {
+    "42": "splits/GNEtolC_balanced_scaffold/seed42.pt",
+    "43": "splits/GNEtolC_balanced_scaffold/seed43.pt",
+    "44": "splits/GNEtolC_balanced_scaffold/seed44.pt",
+    "45": "splits/GNEtolC_balanced_scaffold/seed45.pt",
+    "46": "splits/GNEtolC_balanced_scaffold/seed46.pt",
+    "47": "splits/GNEtolC_balanced_scaffold/seed47.pt",
+    "48": "splits/GNEtolC_balanced_scaffold/seed48.pt"
+  },
+  "radius": 2,
+  "n_bits": 2048,
+  "useChirality": true,
+  "valid_size": 0.1,
+  "test_size": 0.1,
+  "seeds": [
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48
+  ],
+  "device": "cpu",
+  "n_jobs": 8
+}
